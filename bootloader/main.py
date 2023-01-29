@@ -35,7 +35,7 @@ import mip
 time.sleep(3)
 
 # bootloader for the whole suite
-tree = "github:mc0110/inetbox2mqtt"
+tree = "github:mtl010957/inetbox2mqtt"
 
 # mip.install(tree)
 
