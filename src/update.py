@@ -84,6 +84,6 @@ def read_repo_rel():
     time.sleep(1)    
     import release
     q = release.rel_no
-    print("Repo relase-no: " + q)
+    print("Repo release-no: " + q)
     return q
 
