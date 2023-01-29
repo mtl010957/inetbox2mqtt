@@ -27,8 +27,8 @@ RestrictPitch = True
 class spirit_level:
 
     HA_SL_CONFIG = {
-        "spirit_level_pitch":     ['homeassistant/sensor/spirit_level_pitch/config', '{"name": "spirit_level_pitch", "model": "' + HA_MODEL + '", "sw_version":"' + HA_SWV + '", "device_class": "None", "unit_of_measurement": "°", "state_topic": "' + HA_STOPIC + 'spirit_level_pitch"}'],
-        "spirit_level_roll":      ['homeassistant/sensor/spirit_level_roll/config', '{"name": "spirit_level_roll", "model": "' + HA_MODEL + '", "sw_version":"' + HA_SWV + '", "device_class": "None", "unit_of_measurement": "°", "state_topic": "' + HA_STOPIC + 'spirit_level_roll"}'],
+        "spirit_level_pitch":     ['homeassistant/sensor/spirit_level_pitch/config', '{"name": "spirit_level_pitch", "model": "' + HA_MODEL + '", "sw_version":"' + HA_SWV + '", "unit_of_measurement": "°", "state_topic": "' + HA_STOPIC + 'spirit_level_pitch"}'],
+        "spirit_level_roll":      ['homeassistant/sensor/spirit_level_roll/config', '{"name": "spirit_level_roll", "model": "' + HA_MODEL + '", "sw_version":"' + HA_SWV + '", "unit_of_measurement": "°", "state_topic": "' + HA_STOPIC + 'spirit_level_roll"}'],
         #"spirit_level_set_speed": ['homeassistant/switch/spirit_level_set_speed/config', '{"name": "spirit_level_set_speed", "model": "' + HA_MODEL + '", "sw_version":"' + HA_SWV + '", "command_topic": "' + HA_CTOPIC + 'spirit_level_set_speed"}'],
         }
     
