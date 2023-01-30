@@ -13,11 +13,7 @@ from args import Args
 UPDATE = "update.py"
 
 appname = "inetbox2mqtt"
-<<<<<<< HEAD
-rel_no = "2.1.3"
-=======
 rel_no = "2.1.6"
->>>>>>> 5f53f951128285b943010915a7017aa7d309762b
 
 
 #sleep to give some boards time to initialize, for example Rpi Pico W
@@ -45,24 +41,13 @@ if (w.run_mode() > 1):
     # rp2 needs sometimes more than 1 reboot for wifi-connection
     if not(w.set_sta(1)):
         machine.reset()
-<<<<<<< HEAD
     import mip
     import time
     try:
-        mip.install("github:mc0110/inetbox2mqtt/src/" + UPDATE, target = "/")
+        mip.install("github:mtl010957/inetbox2mqtt/src/" + UPDATE, target = "/")
     except:
         import machine
         machine.reset()            
-=======
-    if not(UPDATE in os.listdir("/")):    
-        import mip
-        import time
-        try:
-            mip.install("github:mtl010957/inetbox2mqtt/src/" + UPDATE, target = "/")
-        except:
-            import machine
-            machine.reset()            
->>>>>>> 5f53f951128285b943010915a7017aa7d309762b
     time.sleep(1)    
     import update
     # download the release-no from repo
